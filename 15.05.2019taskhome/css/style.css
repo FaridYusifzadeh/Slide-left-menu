@@ -1,0 +1,67 @@
+body{
+    height: 2500px;
+}
+.leftmenu{
+   
+    width:250px;
+    height:1150px; 
+    position: fixed;
+  z-index: 1;
+  top: 1px;
+  left: 1px;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 60px;
+}
+
+.leftmenu a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: orange;
+  display: block;
+  transition: 1s;
+  font-family: 'Roboto', sans-serif;
+  
+ 
+}
+
+.leftmenu ul{
+    list-style: none;
+    float: left;
+    margin-left: -18px;
+}
+
+.leftmenu a:hover{
+    color: #FF2200;
+}
+.leftmenu .close{
+    position: absolute;
+  top: 0px;
+  margin-left: 150px;
+  font-size: 35px;
+  
+}
+.leftmenu .close:hover{
+    cursor: pointer;
+}
+
+  .iconmenu{
+    font-size:30px;
+    cursor:pointer;
+    color: orange;
+    margin-left: 41px;
+    font-family: 'Roboto', sans-serif;
+    
+ 
+  }
+
+.iconmenu:hover{
+color: #FF2200;
+
+  }
+  .fas:hover{
+    transform:  scale(1.4,1.4);
+    transition: 1s;
+  }
